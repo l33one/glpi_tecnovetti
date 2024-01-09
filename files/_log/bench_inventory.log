@@ -1,0 +1,210 @@
+2023-11-23 01:11:09 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00176 segundo
+		Memory usage:        3.52 MB
+		Memory usage (real): 6 MB
+		Memory peak:         4.01 MB
+
+	handle:
+		Execution time:      1.81422 segundo
+		Memory usage:        8.77 MB
+		Memory usage (real): 12 MB
+		Memory peak:         11.67 MB
+
+	full:
+		Execution time:      2.56826 segundos
+		Memory usage:        7.55 MB
+		Memory usage (real): 12 MB
+		Memory peak:         11.67 MB
+
+Inventoried assets: Computer #1
+2023-11-23 02:11:04 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00173 segundo
+		Memory usage:        5.05 MB
+		Memory usage (real): 8 MB
+		Memory peak:         5.25 MB
+
+	handle:
+		Execution time:      1.02403 segundo
+		Memory usage:        8.55 MB
+		Memory usage (real): 14 MB
+		Memory peak:         10.67 MB
+
+	full:
+		Execution time:      1.6746 segundo
+		Memory usage:        8.54 MB
+		Memory usage (real): 14 MB
+		Memory peak:         10.67 MB
+
+Inventoried assets: Computer #1
+2023-11-24 08:32:36 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00558 segundo
+		Memory usage:        5.05 MB
+		Memory usage (real): 8 MB
+		Memory peak:         5.24 MB
+
+	handle:
+		Execution time:      1.12129 segundo
+		Memory usage:        8.53 MB
+		Memory usage (real): 12 MB
+		Memory peak:         10.67 MB
+
+	full:
+		Execution time:      1.73742 segundo
+		Memory usage:        8.51 MB
+		Memory usage (real): 12 MB
+		Memory peak:         10.67 MB
+
+Inventoried assets: Computer #1
+2023-11-25 13:50:45 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.0031 segundo
+		Memory usage:        5.05 MB
+		Memory usage (real): 8 MB
+		Memory peak:         5.25 MB
+
+	handle:
+		Execution time:      0.80157 segundo
+		Memory usage:        14.85 MB
+		Memory usage (real): 18 MB
+		Memory peak:         15.28 MB
+
+	full:
+		Execution time:      1.2055 segundo
+		Memory usage:        14.84 MB
+		Memory usage (real): 18 MB
+		Memory peak:         15.28 MB
+
+Inventoried assets: Computer #1
+2023-11-27 19:27:38 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00706 segundo
+		Memory usage:        4.27 MB
+		Memory usage (real): 10 MB
+		Memory peak:         8.43 MB
+
+	handle:
+		Execution time:      1.41513 segundo
+		Memory usage:        10.43 MB
+		Memory usage (real): 14 MB
+		Memory peak:         11.02 MB
+
+	full:
+		Execution time:      1.97651 segundo
+		Memory usage:        10.42 MB
+		Memory usage (real): 14 MB
+		Memory peak:         11.02 MB
+
+Inventoried assets: Computer #1
+2023-11-29 08:44:13 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00863 segundo
+		Memory usage:        3.55 MB
+		Memory usage (real): 6 MB
+		Memory peak:         4.6 MB
+
+	handle:
+		Execution time:      1.86243 segundo
+		Memory usage:        7.32 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.22 MB
+
+	full:
+		Execution time:      2.82296 segundos
+		Memory usage:        7.29 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.22 MB
+
+Inventoried assets: Computer #1
+2023-11-30 08:31:17 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00686 segundo
+		Memory usage:        3.55 MB
+		Memory usage (real): 8 MB
+		Memory peak:         4.6 MB
+
+	handle:
+		Execution time:      0.97965 segundo
+		Memory usage:        7.21 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.24 MB
+
+	full:
+		Execution time:      1.56349 segundo
+		Memory usage:        7.19 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.24 MB
+
+Inventoried assets: Computer #1
+2023-12-01 09:27:46 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00968 segundo
+		Memory usage:        3.53 MB
+		Memory usage (real): 6 MB
+		Memory peak:         4.58 MB
+
+	handle:
+		Execution time:      2.57858 segundos
+		Memory usage:        7.14 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.23 MB
+
+	full:
+		Execution time:      3.65432 segundos
+		Memory usage:        7.13 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.23 MB
+
+Inventoried assets: Computer #1
+2023-12-02 21:47:46 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00864 segundo
+		Memory usage:        3.5 MB
+		Memory usage (real): 6 MB
+		Memory peak:         4.55 MB
+
+	handle:
+		Execution time:      1.21913 segundo
+		Memory usage:        6.95 MB
+		Memory usage (real): 10 MB
+		Memory peak:         9.19 MB
+
+	full:
+		Execution time:      2.0982 segundos
+		Memory usage:        6.91 MB
+		Memory usage (real): 10 MB
+		Memory peak:         9.19 MB
+
+Inventoried assets: Computer #1
+2023-12-03 22:48:47 [@glpi]
+Computer:
+	prepare:
+		Execution time:      0.00334 segundo
+		Memory usage:        3.51 MB
+		Memory usage (real): 6 MB
+		Memory peak:         4.56 MB
+
+	handle:
+		Execution time:      1.14561 segundo
+		Memory usage:        7.15 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.2 MB
+
+	full:
+		Execution time:      1.70987 segundo
+		Memory usage:        7.14 MB
+		Memory usage (real): 12 MB
+		Memory peak:         9.2 MB
+
+Inventoried assets: Computer #1

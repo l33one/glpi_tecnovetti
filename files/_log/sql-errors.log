@@ -1,0 +1,113 @@
+[2023-11-27 19:27:37] glpisqllog.WARNING: DBmysql::query() in /var/www/html/glpi/src/DBmysql.php line 419
+  *** MySQL query warnings:
+  SQL: SELECT * FROM `glpi_lockedfields` WHERE `itemtype` = 'Item_DeviceFirmware' AND ((`items_id` = '' OR `is_global` = '1'))
+  Warnings: 
+1292: Truncated incorrect DECIMAL value: ''
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1078                               DBmysqlIterator->execute()
+  src/Lockedfield.php:185                            DBmysql->request()
+  src/Lockedfield.php:158                            Lockedfield->getLocks()
+  src/Inventory/Asset/InventoryAsset.php:433         Lockedfield->getLockedNames()
+  src/Inventory/Asset/Device.php:175                 Glpi\Inventory\Asset\InventoryAsset->handleInput()
+  src/Inventory/Asset/Bios.php:77                    Glpi\Inventory\Asset\Device->handle()
+  src/Inventory/Asset/MainAsset.php:937              Glpi\Inventory\Asset\Bios->handle()
+  src/Inventory/Asset/MainAsset.php:852              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src/RuleImportAsset.php:969                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src/Rule.php:1533                                  RuleImportAsset->executeActions()
+  src/RuleCollection.php:1640                        Rule->process()
+  src/Inventory/Asset/MainAsset.php:574              RuleCollection->processAllRules()
+  src/Inventory/Inventory.php:722                    Glpi\Inventory\Asset\MainAsset->handle()
+  src/Inventory/Inventory.php:353                    Glpi\Inventory\Inventory->handleItem()
+  src/Inventory/Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src/Inventory/Request.php:90                       Glpi\Inventory\Request->inventory()
+  src/Agent/Communication/AbstractRequest.php:359    Glpi\Inventory\Request->handleAction()
+  src/Agent/Communication/AbstractRequest.php:271    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front/inventory.php:94                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  index.php:93                                       include_once()
+  public/index.php:82                                require()
+  {"user":"inventory@glpi"} 
+[2023-11-29 08:44:13] glpisqllog.WARNING: DBmysql::query() in /var/www/html/glpi/src/DBmysql.php line 419
+  *** MySQL query warnings:
+  SQL: SELECT * FROM `glpi_lockedfields` WHERE `itemtype` = 'Item_DeviceSoundCard' AND ((`items_id` = '' OR `is_global` = '1'))
+  Warnings: 
+1292: Truncated incorrect DECIMAL value: ''
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1078                               DBmysqlIterator->execute()
+  src/Lockedfield.php:185                            DBmysql->request()
+  src/Lockedfield.php:158                            Lockedfield->getLocks()
+  src/Inventory/Asset/InventoryAsset.php:433         Lockedfield->getLockedNames()
+  src/Inventory/Asset/Device.php:175                 Glpi\Inventory\Asset\InventoryAsset->handleInput()
+  src/Inventory/Asset/MainAsset.php:937              Glpi\Inventory\Asset\Device->handle()
+  src/Inventory/Asset/MainAsset.php:852              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src/RuleImportAsset.php:969                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src/Rule.php:1533                                  RuleImportAsset->executeActions()
+  src/RuleCollection.php:1640                        Rule->process()
+  src/Inventory/Asset/MainAsset.php:574              RuleCollection->processAllRules()
+  src/Inventory/Inventory.php:722                    Glpi\Inventory\Asset\MainAsset->handle()
+  src/Inventory/Inventory.php:353                    Glpi\Inventory\Inventory->handleItem()
+  src/Inventory/Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src/Inventory/Request.php:90                       Glpi\Inventory\Request->inventory()
+  src/Agent/Communication/AbstractRequest.php:359    Glpi\Inventory\Request->handleAction()
+  src/Agent/Communication/AbstractRequest.php:271    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front/inventory.php:94                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  index.php:93                                       include_once()
+  public/index.php:82                                require()
+  {"user":"inventory@glpi"} 
+[2023-11-30 08:31:16] glpisqllog.WARNING: DBmysql::query() in /var/www/html/glpi/src/DBmysql.php line 419
+  *** MySQL query warnings:
+  SQL: SELECT * FROM `glpi_lockedfields` WHERE `itemtype` = 'Item_DeviceBattery' AND ((`items_id` = '' OR `is_global` = '1'))
+  Warnings: 
+1292: Truncated incorrect DECIMAL value: ''
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1078                               DBmysqlIterator->execute()
+  src/Lockedfield.php:185                            DBmysql->request()
+  src/Lockedfield.php:158                            Lockedfield->getLocks()
+  src/Inventory/Asset/InventoryAsset.php:433         Lockedfield->getLockedNames()
+  src/Inventory/Asset/Device.php:175                 Glpi\Inventory\Asset\InventoryAsset->handleInput()
+  src/Inventory/Asset/MainAsset.php:937              Glpi\Inventory\Asset\Device->handle()
+  src/Inventory/Asset/MainAsset.php:852              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src/RuleImportAsset.php:969                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src/Rule.php:1533                                  RuleImportAsset->executeActions()
+  src/RuleCollection.php:1640                        Rule->process()
+  src/Inventory/Asset/MainAsset.php:574              RuleCollection->processAllRules()
+  src/Inventory/Inventory.php:722                    Glpi\Inventory\Asset\MainAsset->handle()
+  src/Inventory/Inventory.php:353                    Glpi\Inventory\Inventory->handleItem()
+  src/Inventory/Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src/Inventory/Request.php:90                       Glpi\Inventory\Request->inventory()
+  src/Agent/Communication/AbstractRequest.php:359    Glpi\Inventory\Request->handleAction()
+  src/Agent/Communication/AbstractRequest.php:271    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front/inventory.php:94                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  index.php:93                                       include_once()
+  public/index.php:82                                require()
+  {"user":"inventory@glpi"} 
+[2023-11-30 08:31:16] glpisqllog.WARNING: DBmysql::query() in /var/www/html/glpi/src/DBmysql.php line 419
+  *** MySQL query warnings:
+  SQL: SELECT * FROM `glpi_lockedfields` WHERE `itemtype` = 'Item_DeviceBattery' AND ((`items_id` = '' OR `is_global` = '1'))
+  Warnings: 
+1292: Truncated incorrect DECIMAL value: ''
+  Backtrace :
+  src/DBmysqlIterator.php:112                        
+  src/DBmysql.php:1078                               DBmysqlIterator->execute()
+  src/Lockedfield.php:185                            DBmysql->request()
+  src/Lockedfield.php:158                            Lockedfield->getLocks()
+  src/Inventory/Asset/InventoryAsset.php:433         Lockedfield->getLockedNames()
+  src/Inventory/Asset/Device.php:175                 Glpi\Inventory\Asset\InventoryAsset->handleInput()
+  src/Inventory/Asset/MainAsset.php:937              Glpi\Inventory\Asset\Device->handle()
+  src/Inventory/Asset/MainAsset.php:852              Glpi\Inventory\Asset\MainAsset->handleAssets()
+  src/RuleImportAsset.php:969                        Glpi\Inventory\Asset\MainAsset->rulepassed()
+  src/Rule.php:1533                                  RuleImportAsset->executeActions()
+  src/RuleCollection.php:1640                        Rule->process()
+  src/Inventory/Asset/MainAsset.php:574              RuleCollection->processAllRules()
+  src/Inventory/Inventory.php:722                    Glpi\Inventory\Asset\MainAsset->handle()
+  src/Inventory/Inventory.php:353                    Glpi\Inventory\Inventory->handleItem()
+  src/Inventory/Request.php:360                      Glpi\Inventory\Inventory->doInventory()
+  src/Inventory/Request.php:90                       Glpi\Inventory\Request->inventory()
+  src/Agent/Communication/AbstractRequest.php:359    Glpi\Inventory\Request->handleAction()
+  src/Agent/Communication/AbstractRequest.php:271    Glpi\Agent\Communication\AbstractRequest->handleJSONRequest()
+  front/inventory.php:94                             Glpi\Agent\Communication\AbstractRequest->handleRequest()
+  index.php:93                                       include_once()
+  public/index.php:82                                require()
+  {"user":"inventory@glpi","mem_usage":"0.008\", 6.08Mio)"} 
